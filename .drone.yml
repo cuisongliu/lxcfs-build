@@ -6,7 +6,7 @@ workspace:
   path: src/github.com/cuisongliu/lxcfs-build/
 
 steps:
-  - name: publish-fist
+  - name: publish-lxcfs-build
     image: plugins/docker
     settings:
       repo: cuisongliu/lxcfs-build
